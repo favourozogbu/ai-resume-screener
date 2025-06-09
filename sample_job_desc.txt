@@ -1,0 +1,7 @@
+We are seeking a Software Engineer to join our growing team in Dubai. The ideal candidate will have 1–3 years of experience in full-stack development, familiarity with cloud environments, and a solid understanding of CI/CD practices.
+
+Requirements:
+- Proficiency in Python or JavaScript
+- Experience with React and Node.js
+- Familiarity with AWS, Docker, and CI/CD pipelines
+- Strong communication and collaboration skills
