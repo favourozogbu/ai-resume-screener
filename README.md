@@ -1,26 +1,52 @@
-AI Resume Screener
+# 🧠 AI Resume Screener
 
-A lightweight AI-powered tool that analyzes and scores resumes against job descriptions using NLP and ML techniques. Built to assist recruiters in shortlisting candidates efficiently and objectively.
+A lightweight tool that compares a candidate's resume against a job description using NLP and machine learning techniques. Designed for recruiters and developers to evaluate resume relevance based on keyword similarity.
 
-## Features
+## 🚀 Features
 
--  Parse resumes and job descriptions
--  Extract keywords and compute match score
--  Trainable model using `spaCy` + `scikit-learn`
--  Batch screening support
--  CLI interface for resume scoring
+- Parse resumes in PDF format and job descriptions in TXT
+- Compute a match score using TF-IDF vectorization and cosine similarity
+- Simple CLI interface with easy execution
+- Classifies the match as Strong, Moderate, or Weak
 
-## Tech Stack
+## 📂 File Structure
 
-- Python 3.10+
-- NLP: `spaCy`, `NLTK`
-- Machine Learning: `scikit-learn`, `pandas`
-- Parsing: `PyMuPDF`, `python-docx`
-- Deployment-ready for web or API integration
+```
+ai-resume-screener/
+├── ai_resume_screener_main.py
+├── requirements.txt
+└── README.md
+```
 
-## Getting Started
+## 🔧 Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/favourozogbu/ai-resume-screener.git
-   cd ai-resume-screener
+1. Clone the repository
+2. Create a virtual environment (optional)
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## ▶️ Usage
+
+```bash
+python ai_resume_screener_main.py --resume path/to/resume.pdf --job path/to/job_description.txt
+```
+
+## 💡 Output
+
+- Match Score: [0–100]%
+- Match Category: Strong 🟢 / Moderate 🟡 / Weak 🔴
+
+## 📌 Example
+
+```bash
+python ai_resume_screener_main.py --resume resumes/john_doe.pdf --job jobs/software_engineer.txt
+```
+
+## 👨‍💻 Author
+
+**Favour S. Ozogbu**  
+📧 favoursozogbu@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/favourozogbu)
