@@ -45,8 +45,10 @@ python ai_resume_screener_main.py --resume path/to/resume.pdf --job path/to/job_
 python ai_resume_screener_main.py --resume resumes/john_doe.pdf --job jobs/software_engineer.txt
 ```
 
-## 👨‍💻 Author
+## 👨‍💻 Author's Contact   
+**For collaboration or freelance work:**
 
-**Favour S. Ozogbu**  
+**Favour S. Ozogbu**   
 📧 favoursozogbu@gmail.com  
+🔗 [GitHub](https://github.com/favourozogbu)
 🔗 [LinkedIn](https://www.linkedin.com/in/favourozogbu)
